@@ -1,0 +1,11 @@
+# 本文件用于排除本项目不需要纳入版本管理的临时文件和本地安装产物。
+tmp/
+
+# GitHub CLI installer artifacts
+gh_*.msi
+gh_install*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
